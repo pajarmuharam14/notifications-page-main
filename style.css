@@ -194,3 +194,41 @@ a {
 .attribution a {
   color: hsl(219, 85%, 26%);
 }
+
+@media (max-width: 375px) {
+  main {
+    margin: 0;
+  }
+  .main-container {
+    width: 375px;
+  }
+
+  .title {
+    display: flex;
+    font-size: 12px;
+  }
+
+  .title h2 {
+    margin-right: 5px;
+  }
+
+  .title p {
+    margin-right: 23px;
+    font-size: 16px;
+  }
+
+  .notif-message {
+    margin: 30px 5px 5px 3px;
+  }
+
+  .notif-mark-webber,
+  .notif-angela-gray,
+  .notif-jacob-thompson {
+    width: 335px;
+    margin: 0;
+  }
+
+  .avatar-image {
+    padding: 5px 0;
+  }
+}
