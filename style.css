@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: hsl(211, 68%, 94%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px;
+}
+
+.main-container {
+  border: 2px solid #fff;
+  border-radius: 7px;
+  background-color: hsl(0, 0%, 100%);
+  width: 930px;
+  height: auto;
+  padding: 30px 0 5px 25px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.title span {
+  background-color: hsl(219, 12%, 42%);
+  color: hsl(210, 60%, 98%);
+  padding: 0 14px;
+  margin: 0 5px;
+  border-radius: 7px;
+}
+
+.title p {
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.title p:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.notif-message {
+  margin: 50px 10px 5px 35px;
+}
+
+.notif-mark-webber,
+.notif-angela-gray,
+.notif-jacob-thompson {
+  background-color: hsl(210, 60%, 98%);
+  width: 850px;
+  border-radius: 15px;
+  display: flex;
+  margin: 20px 0;
+}
+
+.notif-rizky-hasanuddin,
+.notif-kimberly-smith,
+.notif-Nathan-peterson,
+.notif-anna-kim {
+  background-color: hsl(0, 0%, 100%);
+  width: 850px;
+  border-radius: 15px;
+  display: flex;
+  margin: 20px 0;
+}
+
+.avatar-image {
+  padding: 15px 10px;
+}
+
+.img-comment {
+  margin-left: 250px;
+  margin-top: 35px;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}
+
+.name {
+  padding-top: 40px;
+  padding-left: 10px;
+  font-weight: 800;
+}
+
+.text {
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+.notif-mark-webber span {
+  position: absolute;
+  top: 240px;
+  left: 378px;
+}
+
+.notif-angela-gray span {
+  position: absolute;
+  top: 380px;
+  left: 378px;
+}
+
+.notif-jacob-thompson span {
+  position: absolute;
+  top: 517px;
+  left: 378px;
+}
+
+.notif-rizky-hasanuddin span {
+  position: absolute;
+  top: 655px;
+  left: 378px;
+}
+
+.notif-kimberly-smith span {
+  position: absolute;
+  top: 880px;
+  left: 378px;
+}
+
+.notif-Nathan-peterson span {
+  position: absolute;
+  top: 1020px;
+  left: 378px;
+}
+
+.notif-anna-kim span {
+  position: absolute;
+  top: 1160px;
+  left: 378px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: hsl(1, 90%, 64%);
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 45px;
+  margin-left: 10px;
+}
+
+.private-message {
+  border: 1px solid hsl(0, 0%, 84%);
+  border-radius: 6px;
+  width: 530px;
+  padding: 14px;
+  margin-top: -30px;
+  margin-left: 160px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.private-message:hover {
+  background-color: hsl(211, 68%, 94%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(224, 21%, 14%);
+}
+
+.notif-mark-webber p > a {
+  color: hsl(219, 85%, 26%);
+}
+
+.notif-jacob-thompson p > a {
+  color: hsl(219, 85%, 26%);
+}
+
+.notif-anna-kim p > a {
+  color: hsl(219, 85%, 26%);
+}
+
+.notif-angela-gray a:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.attribution {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+}
+
+.attribution a {
+  color: hsl(219, 85%, 26%);
+}
